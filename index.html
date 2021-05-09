@@ -19,7 +19,7 @@ console.log("origine : " + origin);
 
 yam.platform.request(
    { 
-      url: "https://www.yammer.com/api/v1/uploaded_files/997921701888/version/1014137659392/large_preview" //replace the group ID with yours
+      url: "https://www.yammer.com/api/v1/users/current.json" //replace the group ID with yours
       , method: "GET"
       ,success: function (data) { //print message response information to the console
       try{
